@@ -1,7 +1,33 @@
 {
-  "name": "bun-component-creator",
+  "name": "@ax51/bun-component-creator",
   "module": "index.ts",
   "type": "module",
+  "description": "Simple cli util to help create multiple components at a glance",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "bin": "./index.ts",
+  "engines": {
+    "bun": ">=0.7.0"
+  },
+  "scripts": {
+    "@ax51/bun-component-creator": "bun index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ax51/bun-component-creator.git"
+  },
+  "keywords": [
+    "component-creator",
+    "bun",
+    "cli"
+  ],
+  "author": "Ax51",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ax51/bun-component-creator/issues"
+  },
+  "homepage": "https://github.com/Ax51/bun-component-creator#readme",
   "devDependencies": {
     "bun-types": "latest"
   },
