@@ -1,37 +1,38 @@
 {
   "name": "@ax51/bun-component-creator",
-  "module": "index.ts",
-  "type": "module",
-  "description": "Simple cli util to help create multiple components at a glance",
   "version": "1.0.0",
-  "main": "index.ts",
-  "bin": "./index.ts",
-  "engines": {
-    "bun": ">=0.7.0"
-  },
-  "scripts": {
-    "@ax51/bun-component-creator": "bun index.ts",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "author": "Ax51",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Ax51/bun-component-creator.git"
   },
-  "keywords": [
-    "component-creator",
-    "bun",
-    "cli"
-  ],
-  "author": "Ax51",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Ax51/bun-component-creator/issues"
+  "main": "index.ts",
+  "module": "index.ts",
+  "dependencies": {
+    "mustache": "^4.2.0"
   },
-  "homepage": "https://github.com/Ax51/bun-component-creator#readme",
   "devDependencies": {
-    "bun-types": "latest"
+    "@types/mustache": "^4.2.2",
+    "bun-types": "latest",
+    "rome": "^12.1.3"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "bin": "./index.ts",
+  "bugs": {
+    "url": "https://github.com/Ax51/bun-component-creator/issues"
+  },
+  "description": "Simple cli util to help create multiple components at a glance",
+  "engines": {
+    "bun": ">=0.7.0"
+  },
+  "homepage": "https://github.com/Ax51/bun-component-creator#readme",
+  "keywords": ["component-creator", "bun", "cli"],
+  "license": "ISC",
+  "scripts": {
+    "@ax51/bun-component-creator": "bun index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module"
 }
