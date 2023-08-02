@@ -24,7 +24,7 @@ export const askUserForTemplates = (): {
     case "solid":
       return { templates: solidTemplate, basePath };
     default: {
-      console.write("So let's create our own templates!\n");
+      console.write("\n Ok! So let's create our own templates!\n");
       const mainFileExt = prompt(
         "Enter main files extension (.js | .tsx | .rs)",
       );

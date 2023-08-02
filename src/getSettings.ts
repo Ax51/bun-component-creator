@@ -1,7 +1,7 @@
 import { askUserForTemplates } from "./generateTemplates";
 import { ISavedSettings } from "./types";
 
-export const getTemplates = async (
+export const getSettings = async (
   settingsFileName: string,
   shouldReset: boolean,
 ): Promise<ISavedSettings> => {

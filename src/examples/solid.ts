@@ -9,7 +9,7 @@ export const solidTemplate: ITemplate[] = [
   },
   {
     fileName: "{{ name }}.tsx",
-    template: `import css from "./{{ name }}.css";
+    template: `import css from "./{{ name }}.module.css";
 
 export const {{ name }} = ({{ args }}) => {
   const a = 3;

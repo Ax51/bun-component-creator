@@ -10,7 +10,7 @@ export const reactTemplate: ITemplate[] = [
   {
     fileName: "{{ name }}.tsx",
     template: `import React from "react";
-import css from "./{{ name }}.scss";
+import css from "./{{ name }}.module.css";
 
 export const {{ name }} = ({{ args }}) => {
   const a = 3;
